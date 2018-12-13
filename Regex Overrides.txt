@@ -1,0 +1,43 @@
+Authentication Method (Custom):
+Expression Type: Regex
+Expression: via\s\[(\w+)\]
+Format String: $1
+
+Event Category:
+Expression Type: Regex
+Expression: \w+\s+\d+\s+[\d:]+\s\S+\s(\w+)(?:\:|\s)
+Format String: $1
+
+Event ID:
+Expression Type: Regex
+Expression: Connection:\s(\w+)\s\[\w+\]\s\w+\s\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\s(failed\s\w+\s\w+\s\w+|logged\s\w+\s\w+)
+Format String: $1 $2
+
+Expression Type: Regex
+Expression: System\s\w+:\s(?:The\s|)(System|User|Local|Server|The\sUPS|Normal\s\w+\s\w+|app\sprivilege|IP\saddress|External\sdisk)\s(?:\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\sand\ssubnet\smask\s\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\swere\s|on\sapp\s\[.*?\]\sfor\s\w+\s\[.*?\]\s|\s\[USB.*?\]|\[.*?\]\s|)(.*?)(?:|\son\s\[.*?\]|\sfrom\s\[.*?\]|\sfolder\s\[.*?|)\.
+Format String: $1 $2
+
+Expression Type: Regex
+Expression: WinFileService(?:\sEvent\:\s|\:\sSYSTEM\:\s)(Last\smessage|\w+)(?:.*?File\/Folder\:|\s'.*?'\s\w+\s\d+\s\w+,)\s(\w+)
+Format String $1 $2
+
+File Path:
+Expression Type: Regex
+Expression: Path\:\s(.*?)(?:,\sFile\/Folder|'\s)
+Format String:
+
+Log Source Time:
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s
+Format String: 2018-$1-$2 $3
+Date Format: yyyy-MMM-dd hh:mm:ss
+
+Source IP:
+Expression Type: Regex
+Expression: (?:from|on|IP:)\s(?:|\[)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+Format String: $1
+
+User:
+Expression Type: Regex
+Expression: (?:System|user|User|User:)\s(?:|\[)(\w+|\w+|\w+)(?:\:|,|\])
+Format String: $1

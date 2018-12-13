@@ -1,0 +1,223 @@
+Event ID: User logged in successfully
+Category: Connection
+Name: User Logged in Successfully
+High Level Category: Authentication
+Low Level Category: Auth Server Login Succeeded
+Severity: 1
+Description: A user logged in successfully.
+
+Event ID: User failed to log in
+Category: Connection
+Name: User Failed to Login
+High Level Category: Authentication
+Low Level Category: Auth Server Login Failed
+Severity: 3
+Description: A user failed to login successfully.
+
+Event ID: User accessed shared folder
+Category: Connection
+Name: User Accessed Shared Folder
+High Level Category: Access
+Low Level Category: Access Permitted
+Severity: 1
+Description: A user accessed a shared folder on the server.
+
+Event ID: unknown
+Category: Connection
+Name: Unknown DSM Connection Event
+High Level Category: Unknown
+Low Level Category: Unknown Generic Log Event
+Severity: 1
+Description: A new Connection event was discovered but is currently not mapped.
+
+Event ID: write File
+Category: WinFileService
+Name: File Written
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A file was written to the server.
+
+Event ID: create File
+Category: WinFileService
+Name: File Created
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A new file was created on the server.
+
+Event ID: delete File
+Category: WinFileService
+Name: File Deleted
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A file was deleted from the server.
+
+Event ID: read File
+Category: WinFileService
+Name: File Read
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A file was read on the server.
+
+Event ID: Last message suppressed
+Category: WinFileService
+Name: Log Message Suppressed
+High Level Category: System
+Low Level Category: System Status
+Severity: 2
+Description: Due to the log message being sent multiple times, it has been suppressed.
+
+Event ID: unknown
+Category: WinFileService
+Name: Unknown DSM WinFileService Event
+High Level Category: Unknown
+Low Level Category: Unknown Generic Log Event
+Severity: 3
+Description: A new WinFileService event was discovered but is currently not mapped.
+
+Event ID: Normal shared folder was created
+Category: System
+Name: Normal Shared Folder Created
+High Level Category: System
+Low Level Category: Misc System Event
+Severity: 1
+Description: A normal shared folder was created on the server.
+
+Event ID: System successfully started [NFS service]
+Category: System
+Name: NFS Service Successfully Started
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The NFS service was successfully started on the server.
+
+Event ID: User was created
+Category: System
+Name: User Account Created
+High Level Category: Authentication
+Low Level Category: User Account Added
+Severity: 1
+Description: A new user was created in the OS.
+
+Event ID: app privilege was removed
+Category: System
+Name: Application Privilege Removed
+High Level Category: System
+Low Level Category: System Informational
+Severity: 3
+Description: An application privilege was removed.
+
+Event ID: System successfully enabled File Station transfer log
+Category: System
+Name: File Station Transfer Log Enabled
+High Level Category: System
+Low Level Category: System Informational
+Severity: 3
+Description: The file station transfer log was successfully enabled in the OS. This is done for file level auditing.
+
+Event ID: Local UPS was plugged in
+Category: System
+Name: Local UPS Connected
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: A local UPS has been connected to the server. This is typically done by USB.
+
+Event ID: Local UPS was plugged out
+Category: System
+Name: Local UPS Disconnected
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: A local UPS has been disconnected to the server. This is typically connected by USB.
+
+Event ID: System successfully started UPS service
+Category: System
+Name: UPS Service Started Successfully
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The UPS service has started successfully on the server
+
+Event ID: The UPS was connected
+Category: System
+Name: UPS Connected
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: A UPS has been connected to the server.
+
+Event ID: Server is on battery
+Category: System
+Name: Running on UPS
+High Level Category: System
+Low Level Category: System Status
+Severity: 3
+Description: The system is currently running on a UPS (Battery Backup).
+
+Event ID: System started counting down to reboot
+Category: System
+Name: System Reboot
+High Level Category: System
+Low Level Category: System Halt
+Severity: 1
+Description: A reboot has been initiated and is currently pending.
+
+Event ID: IP address assigned to the DHCP client
+Category: System
+Name: DHCP address assigned to interface
+High Level Category: Access
+Low Level Category: Misc Network Communication Event
+Severity: 2
+Description: An IP address was successfully accepted by the DHCP client and was assigned to an interface.
+
+Event ID: app privilege was set to [allow]
+Category: System
+Name: App Privilege Set to Allow
+High Level Category: System
+Low Level Category: System Informational
+Severity: 3
+Description: An application privilege was set to allow.
+
+Event ID: External disk is mounted and shared
+Category: System
+Name: External Disk Connected and Shared
+High Level Category: System
+Low Level Category: System Status
+Severity: 2
+Description: An external disk is currently connected and shared via the OS.
+
+Event ID: external device was not ejected properly
+Category: System
+Name: External Disk Not Ejected Safely
+High Level Category: System
+Low Level Category: System Status
+Severity: 3
+Description: An external disk was not ejected safely from the operating system. This typically occurs when the device is just pulled out.
+
+Event ID: Metadata of shared folder was deleted
+Category: System
+Name: Metadata for Folder Deleted
+High Level Category: System
+Low Level Category: Misc System Event
+Severity: 1
+Description: The metadata for a shared folder was deleted from the server.
+
+Event ID: External disk is ejected
+Category: System
+Name: External Disk Ejected
+High Level Category: System
+Low Level Category: System Status
+Severity: 2
+Description: An external disk was ejected/removed from the system.
+
+Event ID: unknown
+Category: System
+Name: Unknown DSM System Event
+High Level Category: Unknown
+Low Level Category: Unknown Generic Log Event
+Severity: 3
+Description: A new system event was discovered but is currently not mapped.
