@@ -30,6 +30,14 @@ Low Level Category: Unknown Generic Log Event
 Severity: 1
 Description: A new Connection event was discovered but is currently not mapped.
 
+Event ID: create Folder
+Category: WinFileService
+Name: Folder Created
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A new folder was created on the server.
+
 Event ID: write File
 Category: WinFileService
 Name: File Written
@@ -213,6 +221,38 @@ High Level Category: System
 Low Level Category: System Status
 Severity: 2
 Description: An external disk was ejected/removed from the system.
+
+Event ID: System successfully started [Apple file service]
+Category: System
+Name: AFS Service Successfully Started
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The AFS service was successfully started on the server.
+
+Event ID: VPN profile was disconnected by user
+Category: System
+Name: VPN Connection Disconnected
+High Level Category: Application
+Low Level Category: VPN Closed
+Severity: 1
+Description: VPN connection was manually disconnected.
+
+Event ID: VPN profile was created
+Category: System
+Name: New VPN Connection Created
+High Level Category: System
+Low Level Category: System Informational
+Severity: 3
+Description: A new VPN connection was created in the OS.
+
+Event ID: VPN profile is connecting
+Category: System
+Name: VPN Connection Attempt
+High Level Category: Application
+Low Level Category: VPN Opened
+Severity: 2
+Description: The system is attempting to connect to a saved VPN profile.
 
 Event ID: unknown
 Category: System
