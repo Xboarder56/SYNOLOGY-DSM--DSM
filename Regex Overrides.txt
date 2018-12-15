@@ -14,11 +14,11 @@ Expression: Connection:\s(\w+)\s\[\w+\]\s\w+\s\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,
 Format String: $1 $2
 
 Expression Type: Regex
-Expression: System\s\w+:\s(?:The\s|)(System|User|Local|Server|The\sUPS|Normal\s\w+\s\w+|app\sprivilege|IP\saddress|External\sdisk|external\sdevice|Metadata\s\w+\s\w+\s\w+|VPN\sprofile)\s(?:\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\sand\ssubnet\smask\s\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\swere\s|on\sapp\s\[.*?\]\sfor\s\w+\s\[.*?\]\s|\s\[USB.*?\]|\[.*?\]\s|)(.*?)(?:|\son\s\[.*?\]|\sfrom\s\[.*?\]|\sfolder\s\[.*?|\sto\s\[.*?\]|)\.
+Expression: System\s\w+:\s(?:The\s|)(The\sUPS|Normal\s\w+\s\w+|app\sprivilege|IP\saddress|External\sdisk|external\sdevice|Metadata\s\w+\s\w+\s\w+|VPN\sprofile|\S+|)\s(?:\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\sand\ssubnet\smask\s\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]\swere\s|on\sapp\s\[.*?\]\sfor\s\w+\s\[.*?\]\s|\[.*?\]\s|\w+\s\w+\s\[.*?\]\s|)(.*?)(?:|\son\s\[.*?\]|\sfrom\s\[.*?\]|\sfolder\s\[.*?|\sto\s\[.*?\.\w+\]|)\.
 Format String: $1 $2
 
 Expression Type: Regex
-Expression: WinFileService(?:\sEvent\:\s|\:\sSYSTEM\:\s)(Last\smessage|\w+)(?:.*?File\/Folder\:|\s'.*?'\s\w+\s\d+\s\w+,)\s(\w+)
+Expression: \w+(?:\sEvent\:\s|\:\sSYSTEM\:\s)(Last\smessage|\w+)(?:.*?File\/Folder\:|\s'.*?'\s\w+\s\d+\s\w+,)\s(\w+)
 Format String $1 $2
 
 File Path:

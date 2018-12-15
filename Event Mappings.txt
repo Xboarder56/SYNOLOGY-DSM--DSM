@@ -22,6 +22,14 @@ Low Level Category: Access Permitted
 Severity: 1
 Description: A user accessed a shared folder on the server.
 
+Event ID: Last message suppressed
+Category: Connection
+Name: Log Message Suppressed
+High Level Category: System
+Low Level Category: System Status
+Severity: 2
+Description: Due to the log message being sent multiple times, it has been suppressed.
+
 Event ID: unknown
 Category: Connection
 Name: Unknown DSM Connection Event
@@ -85,6 +93,14 @@ High Level Category: Unknown
 Low Level Category: Unknown Generic Log Event
 Severity: 3
 Description: A new WinFileService event was discovered but is currently not mapped.
+
+Event ID: delete File
+Category: FileStation
+Name: File Deleted
+High Level Category: Application
+Low Level Category: SMB Session In Progress
+Severity: 1
+Description: A file was deleted from the server.
 
 Event ID: Normal shared folder was created
 Category: System
@@ -253,6 +269,30 @@ High Level Category: Application
 Low Level Category: VPN Opened
 Severity: 2
 Description: The system is attempting to connect to a saved VPN profile.
+
+Event ID: Download finished
+Category: System
+Name: Update Downloaded
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: The server has downloaded an update.
+
+Event ID: Failed to send email
+Category: System
+Name: Email Failed to Send
+High Level Category: System
+Low Level Category: System Failure
+Severity: 3
+Description: The system was unable to send an email.
+
+Event ID: Update was complete
+Category: System
+Name: Update Successful
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: An update was successfully performed on the server.
 
 Event ID: unknown
 Category: System
