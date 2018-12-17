@@ -294,6 +294,22 @@ Low Level Category: System Informational
 Severity: 1
 Description: An update was successfully performed on the server.
 
+Event ID: Package has been successfully updated
+Category: System
+Name: Software Package Updated
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: An update to an installed software package was successful.
+
+Event ID: Server back online
+Category: System
+Name: Server Running on A/C
+High Level Category: System
+Low Level Category: System Status
+Severity: 2
+Description: The server has returned to A/C after a power loss.
+
 Event ID: unknown
 Category: System
 Name: Unknown DSM System Event
