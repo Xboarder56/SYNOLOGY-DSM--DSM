@@ -18,7 +18,7 @@ Expression: System\s\w+:\s(?:The\s|)(The\sUPS|Normal\s\w+\s\w+|app\sprivilege|IP
 Format String: $1 $2
 
 Expression Type: Regex
-Expression: \w+(?:\sEvent\:\s|\:\sSYSTEM\:\s)(Last\smessage|\w+)(?:.*?File\/Folder\:|\s'.*?'\s\w+\s\d+\s\w+,)\s(\w+)
+Expression: \w+(?:\sEvent\:\s|\:\sSYSTEM\:\s)(Last\smessage|.*?)(?:,\s\w+\:.*?File\/Folder\:|\s'.*?'\s\w+\s\d+\s\w+,)\s(\w+)
 Format String $1 $2
 
 File Path:

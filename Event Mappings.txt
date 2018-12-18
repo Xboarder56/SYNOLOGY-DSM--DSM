@@ -38,6 +38,22 @@ Low Level Category: Unknown Generic Log Event
 Severity: 1
 Description: A new Connection event was discovered but is currently not mapped.
 
+Event ID: delete Folder
+Category: WinFileService
+Name: Folder Deleted
+High Level Category: Audit
+Low Level Category: Delete Activity Attempted
+Severity: 1
+Description: A folder was deleted on the server.
+
+Event ID: move File
+Category: WinFileService
+Name: File Moved
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A file was moved to a new location on the server.
+
 Event ID: create Folder
 Category: WinFileService
 Name: Folder Created
@@ -65,8 +81,8 @@ Description: A new file was created on the server.
 Event ID: delete File
 Category: WinFileService
 Name: File Deleted
-High Level Category: Application
-Low Level Category: SMB Session In Progress
+High Level Category: Audit
+Low Level Category: Delete Activity Attempted
 Severity: 1
 Description: A file was deleted from the server.
 
@@ -97,10 +113,26 @@ Description: A new WinFileService event was discovered but is currently not mapp
 Event ID: delete File
 Category: FileStation
 Name: File Deleted
-High Level Category: Application
-Low Level Category: SMB Session In Progress
+High Level Category: Audit
+Low Level Category: Delete Activity Attempted
 Severity: 1
 Description: A file was deleted from the server.
+
+Event ID: property set Folder
+Category: FileStation
+Name: Permissions Changed on Folder
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: The permissions on a folder were changed.
+
+Event ID: delete Folder
+Category: FileStation
+Name: Folder Deleted
+High Level Category: Audit
+Low Level Category: Delete Activity Attempted
+Severity: 1
+Description: A folder was deleted on the server.
 
 Event ID: Normal shared folder was created
 Category: System
@@ -301,6 +333,14 @@ High Level Category: System
 Low Level Category: System Informational
 Severity: 1
 Description: An update to an installed software package was successful.
+
+Event ID: Package has been successfully installed
+Category: System
+Name: Software Package Installed
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: A new software package was successfully installed.
 
 Event ID: Server back online
 Category: System
