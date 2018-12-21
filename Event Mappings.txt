@@ -302,6 +302,14 @@ Low Level Category: VPN Opened
 Severity: 2
 Description: The system is attempting to connect to a saved VPN profile.
 
+Event ID: VPN profile was disconnected by server
+Category: System
+Name: VPN Connection Disconnected
+High Level Category: Application
+Low Level Category: VPN Closed
+Severity: 1
+Description: VPN connection was manually disconnected.
+
 Event ID: Download finished
 Category: System
 Name: Update Downloaded

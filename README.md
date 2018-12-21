@@ -15,7 +15,8 @@ This DSM config will support parsing and alerting for over 30 event types as of 
 9. Finally, you will need to create a new log source selecting the custom Log source type we just created.
 
 # Change Log
-- 12-17-2018 - Mapped 4 additional events and adjusted regex for the Event ID of the newly discovered events.
+- 12-20-2018 - Mapped 1 additional event.
+- 12-17-2018 - Mapped 4 additional events and adjusted regex for the Event ID to support the newly discovered events.
 - 12-17-2018 - Mapped 2 additional events.
 - 12-14-2018 - New events mapped, regex adjusted for event ID parsing of newly discovered events. Hopefully the way the regex was adjusted will help to be more universal.
 - 12-13-2018 - Mapped additional events, tweaked System regex for Event ID to parse VPN events.
