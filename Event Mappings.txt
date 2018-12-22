@@ -150,6 +150,38 @@ Low Level Category: Service Started
 Severity: 1
 Description: The NFS service was successfully started on the server.
 
+Event ID: System successfully started [Rsync]
+Category: System
+Name: Rsync Service Successfully Started
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The Rsync service was successfully started on the server.
+
+Event ID: System successfully started [SFTP service]
+Category: System
+Name: SFTP Service Successfully Started
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The SFTP service was successfully started on the server.
+
+Event ID: System successfully restarted FTP service
+Category: System
+Name: FTP Service Successfully Restarted
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The FTP service was successfully restarted on the server.
+
+Event ID: FTP service was started
+Category: System
+Name: FTP Service Successfully Started
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: The FTP service was successfully started on the server.
+
 Event ID: User was created
 Category: System
 Name: User Account Created
@@ -357,6 +389,14 @@ High Level Category: System
 Low Level Category: System Status
 Severity: 2
 Description: The server has returned to A/C after a power loss.
+
+Event ID: [LAN 1] link up
+Category: System
+Name: LAN 1 is Up
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: The server has established a connection on LAN 1.
 
 Event ID: unknown
 Category: System
