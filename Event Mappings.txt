@@ -54,6 +54,14 @@ Low Level Category: General Audit Event
 Severity: 2
 Description: A file was moved to a new location on the server.
 
+Event ID: rename Folder
+Category: WinFileService
+Name: Folder Renamed
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A folder was renamed on the server.
+
 Event ID: create Folder
 Category: WinFileService
 Name: Folder Created
@@ -341,6 +349,14 @@ High Level Category: Application
 Low Level Category: VPN Closed
 Severity: 1
 Description: VPN connection was manually disconnected.
+
+Event ID: Failed to redial by VPN
+Category: System
+Name: VPN Reconnection Attempt Failed
+High Level Category: Application
+Low Level Category: VPN Reset
+Severity: 3
+Description: The VPN failed to reconnect.
 
 Event ID: Download finished
 Category: System
