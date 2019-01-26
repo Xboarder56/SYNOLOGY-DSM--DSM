@@ -2,7 +2,7 @@ Event ID: User logged in successfully
 Category: Connection
 Name: User Logged in Successfully
 High Level Category: Authentication
-Low Level Category: Auth Server Login Succeeded
+Low Level Category: User Login Success
 Severity: 1
 Description: A user logged in successfully.
 
@@ -10,7 +10,7 @@ Event ID: User failed to log in
 Category: Connection
 Name: User Failed to Login
 High Level Category: Authentication
-Low Level Category: Auth Server Login Failed
+Low Level Category: User Login Failure
 Severity: 3
 Description: A user failed to login successfully.
 
