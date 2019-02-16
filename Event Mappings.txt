@@ -126,6 +126,22 @@ Low Level Category: Delete Activity Attempted
 Severity: 1
 Description: A file was deleted from the server.
 
+Event ID: move File
+Category: FileStation
+Name: File Moved
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A file was moved to a new location on the server.
+
+Event ID: download File
+Category: FileStation
+Name: File Downloaded
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A file was downloaded to the server.
+
 Event ID: property set Folder
 Category: FileStation
 Name: Permissions Changed on Folder
@@ -408,11 +424,43 @@ Description: The server has returned to A/C after a power loss.
 
 Event ID: [LAN 1] link up
 Category: System
-Name: LAN 1 is Up
+Name: LAN 1 is up
 High Level Category: System
 Low Level Category: System Status
 Severity: 1
 Description: The server has established a connection on LAN 1.
+
+Event ID: [LAN 1] link down
+Category: System
+Name: LAN 1 is down
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: The server has lost connection on LAN 1.
+
+Event ID: [LAN 2] link up
+Category: System
+Name: LAN 2 is up
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: The server has established a connection on LAN 2.
+
+Event ID: [LAN 2] link down
+Category: System
+Name: LAN 2 is down
+High Level Category: System
+Low Level Category: System Status
+Severity: 1
+Description: The server has lost connection on LAN 2.
+
+Event ID: Test message from Synology Syslog Client
+Category: System
+Name: Synology Test Syslog Message
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: The server sent a test syslog message.
 
 Event ID: unknown
 Category: System
