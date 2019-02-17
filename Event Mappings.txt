@@ -214,6 +214,70 @@ Low Level Category: User Account Added
 Severity: 1
 Description: A new user was created in the OS.
 
+Event ID: User was disabled
+Category: System
+Name: User Account Disabled
+High Level Category: Authentication
+Low Level Category: User Account Changed
+Severity: 1
+Description: A user account was disabled.
+
+Event ID: Password of the user was changed
+Category: System
+Name: User Password Changed
+High Level Category: Authentication
+Low Level Category: User Account Changed
+Severity: 1
+Description: A user account password was changed.
+
+Event ID: System successfully deleted User
+Category: System
+Name: User Account Deleted
+High Level Category: Authentication
+Low Level Category: User Account Removed
+Severity: 1
+Description: A user account was deleted.
+
+Event ID: Change Quota of user
+Category: System
+Name: User Quota Changed
+High Level Category: System
+Low Level Category: System Informational
+Severity: 2
+Description: A user quota was changed.
+
+Event ID: Group was created
+Category: System
+Name: Group Created
+High Level Category: Authentication
+Low Level Category: Group Added
+Severity: 1
+Description: A group was created.
+
+Event ID: Group was deleted
+Category: System
+Name: Group Deleted
+High Level Category: Authentication
+Low Level Category: Group Added
+Severity: 1
+Description: A group was deleted/removed.
+
+Event ID: User was added to the group
+Category: System
+Name: User Added to Group
+High Level Category: Authentication
+Low Level Category: Group Member Added
+Severity: 1
+Description: A user was added to a group.
+
+Event ID: User was removed from the group
+Category: System
+Name: User Removed from Group
+High Level Category: Authentication
+Low Level Category: Group Member Removed
+Severity: 1
+Description: A user was removed from a group.
+
 Event ID: app privilege was removed
 Category: System
 Name: Application Privilege Removed
