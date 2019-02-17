@@ -478,6 +478,14 @@ Low Level Category: System Informational
 Severity: 1
 Description: A new software package was successfully installed.
 
+Event ID: Package has been successfully uninstalled
+Category: System
+Name: Software Package Uninstalled
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: A software package was successfully uninstalled.
+
 Event ID: Server back online
 Category: System
 Name: Server Running on A/C
