@@ -17,7 +17,8 @@ Note: This was built utilizing DSM 6.2.1 Update 4
 9. Finally, you will need to create a new log source selecting the custom Log source type we just created.
 
 # Change Log
-- 02-17-2019 - Mapped 'Software uninstalled' event.
+- 02-24-2019 - Mapped 'System Shutting Down', 'successfully stopped [Rsync]', 'Shared folder was deleted', 'Storage Pool was degrade' and 'Clear [System]' events.
+- 02-17-2019 - Mapped 'Software Uninstalled' event.
 - 02-17-2019 - Regex adjusted for System events. Mapped 8 additional events.
 - 02-16-2019 - Regex changed for connection events. This resolved the issue with the event 'User accessed shared folder'.
 - 02-15-2019 - Regex modified to support parsing test events. Mapped 6 additional events.

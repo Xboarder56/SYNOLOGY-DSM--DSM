@@ -182,6 +182,14 @@ Low Level Category: Service Started
 Severity: 1
 Description: The Rsync service was successfully started on the server.
 
+Event ID: System successfully stopped [Rsync]
+Category: System
+Name: Rsync Service Successfully Stopped
+High Level Category: System
+Low Level Category: Service Stopped
+Severity: 1
+Description: The Rsync service was successfully stopped on the server.
+
 Event ID: System successfully started [SFTP service]
 Category: System
 Name: SFTP Service Successfully Started
@@ -437,6 +445,38 @@ High Level Category: Application
 Low Level Category: VPN Reset
 Severity: 3
 Description: The VPN failed to reconnect.
+
+Event ID: System started counting down to shutdown
+Category: System
+Name: System Shutting down
+High Level Category: System
+Low Level Category: System Halt
+Severity: 1
+Description: The system is shutting down.
+
+Event ID: Clear [System]
+Category: System
+Name: System Log Cleared
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: The system log was cleared.
+
+Event ID: Storage Pool was degrade
+Category: System
+Name: System entered a degraded state
+High Level Category: System
+Low Level Category: Warning
+Severity: 3
+Description: The system has entered a degraded state. This indicates that a volume is failing.
+
+Event ID: Shared folder was deleted
+Category: System
+Name: Shared folder deleted
+High Level Category: System
+Low Level Category: Misc System Event
+Severity: 3
+Description: A shared folder was deleted from the system.
 
 Event ID: Download finished
 Category: System
