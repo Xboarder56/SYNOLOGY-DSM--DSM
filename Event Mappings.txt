@@ -134,6 +134,22 @@ Low Level Category: General Audit Event
 Severity: 2
 Description: A file was moved to a new location on the server.
 
+Event ID: copy File
+Category: FileStation
+Name: File Copied
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A file was copied to a new location on the server.
+
+Event ID: copy Folder
+Category: FileStation
+Name: Folder Copied
+High Level Category: Audit
+Low Level Category: General Audit Event
+Severity: 2
+Description: A folder was copied to a new location on the server.
+
 Event ID: download File
 Category: FileStation
 Name: File Downloaded

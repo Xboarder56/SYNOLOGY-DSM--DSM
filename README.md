@@ -17,6 +17,7 @@ Note: This was built utilizing DSM 6.2.1 Update 4
 9. Finally, you will need to create a new log source selecting the custom Log source type we just created.
 
 # Change Log
+- 02-25-2019 - Mapped 'copied File' and 'copied Folder' event. Mapped custom property 'File Destination Path'.
 - 02-24-2019 - Mapped 'System Shutting Down', 'successfully stopped [Rsync]', 'Shared folder was deleted', 'Storage Pool was degrade' and 'Clear [System]' events.
 - 02-17-2019 - Mapped 'Software Uninstalled' event.
 - 02-17-2019 - Regex adjusted for System events. Mapped 8 additional events.
